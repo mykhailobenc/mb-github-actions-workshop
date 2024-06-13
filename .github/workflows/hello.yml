@@ -9,3 +9,7 @@ jobs:
     steps:
       - name: Greet the User
         run: echo "Hello, world!"
+      - run: ls -l
+      - uses: actions/checkout@v4
+      - run: ls -l
+      
